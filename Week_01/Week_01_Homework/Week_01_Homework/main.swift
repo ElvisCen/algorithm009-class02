@@ -8,7 +8,7 @@
 
 import Foundation
 
-let removeDup = Solution26()
+let removeDup = Solution_RemoveDuplicates()
 var nums1 = [1,1,2]
 let res1 = removeDup.removeDuplicates(&nums1)
 print("result1 - \(res1)")

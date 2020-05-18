@@ -15,7 +15,7 @@ import Foundation
  不要使用额外的数组空间，你必须在 原地 修改输入数组 并在使用 O(1) 额外空间的条件下完成。
  ---
  */
-class Solution26 {
+class Solution_RemoveDuplicates {
     //双指针法
     //i指针  j指针，从0开始出发 ，
     //如果 nums[i] == num[j] ，j 向前 +1 ，i 不改变
