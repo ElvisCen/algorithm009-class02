@@ -10,6 +10,8 @@
 		832B3B782472238B007052DB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B3B772472238B007052DB /* main.swift */; };
 		832B3B7F247223D0007052DB /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B3B7E247223D0007052DB /* RemoveDuplicates.swift */; };
 		832B3B8424726266007052DB /* Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B3B8324726266007052DB /* Rotate.swift */; };
+		832B3B86247286A8007052DB /*  Merge_Two_Sorted_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B3B85247286A8007052DB /*  Merge_Two_Sorted_Lists.swift */; };
+		832B3B8824728CC4007052DB /* Merge_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B3B8724728CC4007052DB /* Merge_Sorted_Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		832B3B772472238B007052DB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		832B3B7E247223D0007052DB /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		832B3B8324726266007052DB /* Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotate.swift; sourceTree = "<group>"; };
+		832B3B85247286A8007052DB /*  Merge_Two_Sorted_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Merge_Two_Sorted_Lists.swift"; sourceTree = "<group>"; };
+		832B3B8724728CC4007052DB /* Merge_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Sorted_Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				832B3B772472238B007052DB /* main.swift */,
 				832B3B7E247223D0007052DB /* RemoveDuplicates.swift */,
 				832B3B8324726266007052DB /* Rotate.swift */,
+				832B3B85247286A8007052DB /*  Merge_Two_Sorted_Lists.swift */,
+				832B3B8724728CC4007052DB /* Merge_Sorted_Array.swift */,
 			);
 			path = Week_01_Homework;
 			sourceTree = "<group>";
@@ -127,8 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				832B3B782472238B007052DB /* main.swift in Sources */,
+				832B3B8824728CC4007052DB /* Merge_Sorted_Array.swift in Sources */,
 				832B3B8424726266007052DB /* Rotate.swift in Sources */,
 				832B3B7F247223D0007052DB /* RemoveDuplicates.swift in Sources */,
+				832B3B86247286A8007052DB /*  Merge_Two_Sorted_Lists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
