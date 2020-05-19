@@ -39,7 +39,7 @@ class Solution88 {
         //p1 , p2 最多有一个不为0
         while p2 >= 0 {
             nums1[p] = nums2[p2]
-            sp2 -= 1
+            p2 -= 1
             p -= 1
         }
     }

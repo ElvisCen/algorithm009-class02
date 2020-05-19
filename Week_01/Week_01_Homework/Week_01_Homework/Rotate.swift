@@ -12,11 +12,10 @@ class Solution_Rotate {
     func rotate(_ nums: inout [Int], _ k: Int) {
        //使用队列FIFO 最后一个出队，然后入队
         //平均时间复杂度为 O(n) 空间复杂度为O(1)
-        nums.insert(<#T##newElement: Int##Int#>, at: <#T##Int#>)
         var n = k
         while n > 0 {
-           // let end = nums.removeLast()
-            nums.insert(nums.removeLast() , at: 0)
+           let end = nums.removeLast()
+            nums.insert(end , at: 0)
             n -= 1
         }
         

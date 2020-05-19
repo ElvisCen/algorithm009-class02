@@ -19,4 +19,47 @@ func test1()  {
     print("result2 - \(res2)")
 }
 
-test1()
+
+func testTwoSum()  {
+    let solution = SolutionTwoSum()
+    let nums = [2, 7, 11, 15]
+    let target = 9
+    let res = solution.twoSum(nums, target)
+    print(res)
+}
+//test1()
+//testTwoSum()
+
+func testCirecularDeque()  {
+     let obj = MyCircularDeque(0)
+     let ret_1: Bool = obj.insertLast(1)
+    print("ret_1 - \(ret_1)")
+     let ret_2: Bool = obj.insertLast(2)
+    print("ret_2 - \(ret_2)")
+     let ret_3: Bool = obj.insertFront(3)
+    print("ret_3 - \(ret_3)")
+     let ret_4: Bool = obj.insertFront(4)
+     print("ret_4 - \(ret_4)")
+     let ret_5: Int = obj.getRear()
+     print("ret_5 - \(ret_5)")
+     let ret_6: Bool = obj.isFull()
+     print("ret_6 - \(ret_6)")
+     let ret_7: Bool = obj.deleteLast()
+     print("ret_7 - \(ret_7)")
+     let ret_8: Bool = obj.insertFront(4)
+    print("ret_8 - \(ret_8)")
+     let ret_9: Int = obj.getFront()
+     print("ret_9 - \(ret_9)")
+    
+     
+   
+    
+    
+   
+   
+   
+   
+    
+   
+}
+testCirecularDeque()
