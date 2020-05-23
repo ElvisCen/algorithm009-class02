@@ -12,10 +12,13 @@
 		832B3B8424726266007052DB /* Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B3B8324726266007052DB /* Rotate.swift */; };
 		832B3B86247286A8007052DB /* Merge_Two_Sorted_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B3B85247286A8007052DB /* Merge_Two_Sorted_Lists.swift */; };
 		832B3B8824728CC4007052DB /* Merge_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B3B8724728CC4007052DB /* Merge_Sorted_Array.swift */; };
+		83462B642478A20A00F2061D /* BullsAndCows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83462B632478A20A00F2061D /* BullsAndCows.swift */; };
+		83462B662478A23300F2061D /* WordPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83462B652478A23300F2061D /* WordPattern.swift */; };
 		8348CC482473730700587FC7 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348CC472473730700587FC7 /* TwoSum.swift */; };
 		8348CC4A2473839500587FC7 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348CC492473839500587FC7 /* MoveZeroes.swift */; };
 		8348CC4C247390A100587FC7 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348CC4B247390A100587FC7 /* PlusOne.swift */; };
 		8348CC4E2473BF1800587FC7 /* MyCircularDeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348CC4D2473BF1800587FC7 /* MyCircularDeque.swift */; };
+		8348CC522474CF1400587FC7 /* Trap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348CC512474CF1400587FC7 /* Trap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,10 +40,13 @@
 		832B3B8324726266007052DB /* Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotate.swift; sourceTree = "<group>"; };
 		832B3B85247286A8007052DB /* Merge_Two_Sorted_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Two_Sorted_Lists.swift; sourceTree = "<group>"; };
 		832B3B8724728CC4007052DB /* Merge_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Sorted_Array.swift; sourceTree = "<group>"; };
+		83462B632478A20A00F2061D /* BullsAndCows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsAndCows.swift; sourceTree = "<group>"; };
+		83462B652478A23300F2061D /* WordPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPattern.swift; sourceTree = "<group>"; };
 		8348CC472473730700587FC7 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		8348CC492473839500587FC7 /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		8348CC4B247390A100587FC7 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		8348CC4D2473BF1800587FC7 /* MyCircularDeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircularDeque.swift; sourceTree = "<group>"; };
+		8348CC512474CF1400587FC7 /* Trap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				8348CC492473839500587FC7 /* MoveZeroes.swift */,
 				8348CC4B247390A100587FC7 /* PlusOne.swift */,
 				8348CC4D2473BF1800587FC7 /* MyCircularDeque.swift */,
+				8348CC512474CF1400587FC7 /* Trap.swift */,
+				83462B632478A20A00F2061D /* BullsAndCows.swift */,
+				83462B652478A23300F2061D /* WordPattern.swift */,
 			);
 			path = Week_01_Homework;
 			sourceTree = "<group>";
@@ -144,14 +153,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8348CC522474CF1400587FC7 /* Trap.swift in Sources */,
 				8348CC4A2473839500587FC7 /* MoveZeroes.swift in Sources */,
 				832B3B782472238B007052DB /* main.swift in Sources */,
 				832B3B8824728CC4007052DB /* Merge_Sorted_Array.swift in Sources */,
 				8348CC4E2473BF1800587FC7 /* MyCircularDeque.swift in Sources */,
 				8348CC482473730700587FC7 /* TwoSum.swift in Sources */,
+				83462B662478A23300F2061D /* WordPattern.swift in Sources */,
 				832B3B8424726266007052DB /* Rotate.swift in Sources */,
 				832B3B7F247223D0007052DB /* RemoveDuplicates.swift in Sources */,
 				8348CC4C247390A100587FC7 /* PlusOne.swift in Sources */,
+				83462B642478A20A00F2061D /* BullsAndCows.swift in Sources */,
 				832B3B86247286A8007052DB /* Merge_Two_Sorted_Lists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
