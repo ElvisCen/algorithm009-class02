@@ -42,3 +42,6 @@ class WordPattern: NSObject {
         return true
     }
 }
+//https://leetcode-cn.com/problems/valid-anagram/description/
+//https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+//https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/

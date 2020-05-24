@@ -10,6 +10,7 @@
    2、如果 nums[i] == num[j] ，j 向前 +1 ，i 不改变
    3、如果 nums[i] != num[j] ,j 向前 +1 ,i + 1
    4‘到最后，数组中前 i + 1个元素即为不重复的元素
+   
     ````
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         if nums.count == 0 {
@@ -25,4 +26,4 @@
         return i + 1
     }
 
-````
+
