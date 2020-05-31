@@ -1,15 +1,15 @@
 学习笔记
 # 堆排序
     堆排序是基于二叉堆的一种排序算法。它类似于选择排序，首先找到最大元素，然后将最大元素放在最后，最后对剩余元素重复相同过程。
-    ### 二叉堆
+### 二叉堆
     二叉堆是具有一下性质的完全二叉树：每个节点的值都大于或者等于其左右子节点的值，称为大顶堆；或者每个节点的值都小于或者等于其左右子节点的值，称为小顶堆。
     如果父节点存储的值在i处，则左子节点可以由 2 * i + 1计算，右子节点可以由 2 * i + 2计算 (假定索引从0开始)
-    ### 堆排序的基本思路
+### 堆排序的基本思路
     - 将无序序列构建成一个堆，根据升序降序需求选择大顶堆或者小顶堆；
     - 将堆顶元素与末尾元素交换，将最大元素“沉”到数组末端；
     - 重新调整结构，使其满足堆定义，然后继续交换堆顶元素与当前末尾元素，反复执行+交换步骤，知道整个序列有序。
     
-    ### 代码实现
+### 代码实现
     ```
     // C++ program for implementation of Heap Sort
     #include <iostream> 
@@ -67,13 +67,4 @@
     **时间复杂度：** 
     堆排序的整体时间复杂度为O（nLogn）。
     
-    ![场景00505](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/scene005051-300x173.jpg)
-    [![场景](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/scene007931-300x173.jpg)
-    
-    [![scene01081](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/scene01081-300x173.jpg)
-    
-    ![scene01297](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/scene01297-300x173.jpg)
-    
-    ![场景01513](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/scene01513-300x173.jpg)
 
-     ![scene02449](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/scene02449-300x173.jpg)
