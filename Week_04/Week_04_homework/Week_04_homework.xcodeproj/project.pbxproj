@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		834C8BE42495DDAA0088B9DB /* WordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C8BE32495DDAA0088B9DB /* WordLadder.swift */; };
 		83501BF42495A2270076347C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83501BF32495A2270076347C /* main.swift */; };
+		83501BFB2495A3660076347C /* LemonadeChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83501BFA2495A3660076347C /* LemonadeChange.swift */; };
+		83501BFD2495A72F0076347C /* BestTimeToBuyAndSellStockII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83501BFC2495A72F0076347C /* BestTimeToBuyAndSellStockII.swift */; };
+		83501BFF2495AC210076347C /* AssignCookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83501BFE2495AC210076347C /* AssignCookies.swift */; };
+		83501C012495B07D0076347C /* WalkingRobotSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83501C002495B07D0076347C /* WalkingRobotSimulation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		834C8BE32495DDAA0088B9DB /* WordLadder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLadder.swift; sourceTree = "<group>"; };
 		83501BF02495A2270076347C /* Week_04_homework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week_04_homework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83501BF32495A2270076347C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		83501BFA2495A3660076347C /* LemonadeChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeChange.swift; sourceTree = "<group>"; };
+		83501BFC2495A72F0076347C /* BestTimeToBuyAndSellStockII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStockII.swift; sourceTree = "<group>"; };
+		83501BFE2495AC210076347C /* AssignCookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCookies.swift; sourceTree = "<group>"; };
+		83501C002495B07D0076347C /* WalkingRobotSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingRobotSimulation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				83501BF32495A2270076347C /* main.swift */,
+				83501BFA2495A3660076347C /* LemonadeChange.swift */,
+				83501BFC2495A72F0076347C /* BestTimeToBuyAndSellStockII.swift */,
+				83501BFE2495AC210076347C /* AssignCookies.swift */,
+				83501C002495B07D0076347C /* WalkingRobotSimulation.swift */,
+				834C8BE32495DDAA0088B9DB /* WordLadder.swift */,
 			);
 			path = Week_04_homework;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83501BFF2495AC210076347C /* AssignCookies.swift in Sources */,
+				83501BFD2495A72F0076347C /* BestTimeToBuyAndSellStockII.swift in Sources */,
+				83501C012495B07D0076347C /* WalkingRobotSimulation.swift in Sources */,
+				83501BFB2495A3660076347C /* LemonadeChange.swift in Sources */,
 				83501BF42495A2270076347C /* main.swift in Sources */,
+				834C8BE42495DDAA0088B9DB /* WordLadder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
